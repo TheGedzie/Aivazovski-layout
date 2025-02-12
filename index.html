@@ -34,6 +34,36 @@
 			</nav>
 		</div>
 	</header>
+	<div class="mobile__navigation" aria-label="mobile navigation">
+		<label for="toggler-id">
+			<img src="assets/icons/Burger.png" alt="burger-icon" class="burger-icon">
+		</label>
+		<input type="checkbox" id="toggler-id" class="mobile__navigation-toggler">
+
+		<nav class="mobile__navigation-menu" aria-label="mobile navigation">
+				<ul class="mobile__navigation-list" aria-label="mobile navigation list">
+					<li>
+						<a href="#hero-id" class="mobile__navigation-link" aria-label="Link to home">Home</a>
+					</li>
+					<li>
+						<a href="#about-id" class="mobile__navigation-link" aria-label="Link to home">About</a>
+					</li>
+					<li>
+						<a href="#history-id" class="mobile__navigation-link" aria-label="Link to home">History</a>
+					</li>
+					<li>
+						<a href="#portfolio-id" class="mobile__navigation-link" aria-label="Link to home">Portfolio</a>
+					</li>
+					<li>
+						<a href="#contacts-id" class="mobile__navigation-link" aria-label="Link to home">Contacts</a>
+					</li>
+				</ul>
+				<label for="toggler-id" class="mobile__navigation-close">
+					<img src="assets/icons/Cross.png" alt="cross-icon" class="cross-icon">
+				</label>
+
+			</nav>
+	</div>
 	<main aria-label="main">
 		<section class="hero" aria-label="hero section" id="hero-id">
 			<div class="container">
@@ -101,5 +131,6 @@
             </p>
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

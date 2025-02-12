@@ -22,8 +22,6 @@
 .contacts-button:hover,.contacts__socials-icons:hover{
 	transform: scale(1.05);
 }
-.button-link {
-}
 .contacts__socials {
 	display: flex;
 	margin: 0 auto;
