@@ -3,6 +3,7 @@
     padding: 60px 30px 100px;
     text-align: center;
     color: var(--color-main_black);
+    margin-bottom: 64px;
 }
 
 .about__title {
